@@ -1,0 +1,40 @@
+as a player
+
+
+bronze
+
+as a player I want to be able to see the menu before I 
+commit to starting the game
+
+as a player I want to be able to choose if im x or o
+
+as a player I want to be able to choose where my x's or o's go 
+
+as a player I want to be notified who's turn it is
+
+as a player I want to know if I win or lose
+
+silver
+
+gold
+
+plat
+
+
+win lose console theory:
+
+grid =
+ [1,0,0]
+ [0,0,0]
+ [0,0,0]
+
+ if winner = {
+
+ }
+
+ const winCheck - {
+     [0,1,2]
+     [3,4,5]
+     [6,7,8]
+     
+ }

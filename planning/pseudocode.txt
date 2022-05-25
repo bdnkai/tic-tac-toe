@@ -1,0 +1,25 @@
+-Show begin game modal
+    -Play button to click
+
+    
+        [Front End]
+        - initializes game/runs init()
+        - hide beginning game modal & main game
+        - display turn history
+            - [Player 1's turn]
+        - check to ensure there are valid squares left
+            -if no valid squares left, alert player of a draw, provide reset button
+                -reinitialize game
+        - Player selects a grid by clicking on init
+            - game checks if square is already claimed
+                - if claimed, return invalid square message
+                - if not claimed, allow player to take it, set array value appropriately
+                - If player action results in win crtieria being met, end game, display Results Modal
+
+
+        [Back end]
+        - initialize grid
+            - return grid array to 0
+        [1,2,0] => [0,0,0]
+        [0,1,0] => [0.0.0]
+        [0,0,1] => [0,0,0]
